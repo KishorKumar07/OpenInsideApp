@@ -1,0 +1,630 @@
+.right-side {
+height: 1024px;
+width: 1440px;
+position: relative;
+background-color: #f8faff;
+display: none;
+max-width: 100%;
+}
+.base {
+margin: 0;
+height: 88px;
+position: absolute;
+font-size: inherit;
+font-weight: 700;
+font-family: inherit;
+display: inline-block;
+z-index: 2;
+
+left:-1130px;
+bottom:20px
+
+}
+.frame-content {
+    
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 0px 0px 0px 10px;
+}
+.symbols-icon {
+height: 44px;
+width: 44px;
+position: relative;
+object-fit: cover;
+}
+.linked-i-nlogo {
+height: 41px;
+width: 42px;
+position: relative;
+object-fit: cover;
+}
+.symbols-icon1 {
+position: absolute;
+height: 74.58%;
+width: 75%;
+top: 12.5%;
+right: 12.5%;
+bottom: 12.92%;
+left: 12.5%;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+}
+.carbonlogo-linkedin {
+height: 48px;
+width: 48px;
+position: relative;
+overflow: hidden;
+flex-shrink: 0;
+}  
+
+
+.navigation-vectors-icon {
+position: absolute;
+height: 8.96%;
+width: 23.8%;
+top: 46.67%;
+right: 38.4%;
+bottom: 44.38%;
+left: 37.8%;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+}
+.navigation-vectors-icon1 {
+position: absolute;
+height: 81.25%;
+width: 71%;
+top: 12.5%;
+right: 14.6%;
+bottom: 6.25%;
+left: 14.4%;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+z-index: 1;
+}
+.carbonlogo-discord {
+height: 48px;
+width: 50px;
+position: relative;
+overflow: hidden;
+flex-shrink: 0;
+}
+.symbols-parent {
+width: 301px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 0px 0px 0px 0px;
+box-sizing: border-box;
+gap: 20px;
+z-index: 2;
+}
+.left-side-icon {
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+max-width: 100%;
+overflow: hidden;
+max-height: 100%;
+object-fit: cover;
+z-index: 1;
+}
+.ellipse-shape {
+position: absolute;
+top: 54.3px;
+left: 61px;
+border-radius: 50%;
+background-color: #fcfcff;
+width: 80.2px;
+height: 80.2px;
+z-index: 2;
+}
+.vector-pointer-icon {
+position: absolute;
+top: 83.7px;
+left: 59px;
+width: 82.8px;
+height: 22px;
+z-index: 3;
+}
+.navigation-vectors {
+width: 100%;
+height: 100%;
+position: absolute;
+margin: 0 !important;
+top: 0px;
+right: 3px;
+bottom: 0px;
+left: 0px;
+}
+.frame-sign-in {
+width: 723px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+padding: 462px 152px 67px 20px;
+box-sizing: border-box;
+position: relative;
+gap: 359px;
+min-width: 723px;
+max-width: 100%;
+}
+.subtract-icon {
+height: 0px;
+width: 0px;
+position: relative;
+display: none;
+}
+.sign-in1 {
+margin: 0;
+width: 143.8px;
+height: 48.3px;
+position: relative;
+font-size: 36px;
+font-weight: 700;
+font-family: Montserrat;
+color: #000;
+text-align: left;
+display: inline-block;
+flex-shrink: 0;
+z-index: 1;
+}
+.sign-in-to {
+align-self: stretch;
+position: relative;
+font-size: 16px;
+font-family: Lato;
+color: #000;
+text-align: left;
+z-index: 1;
+}
+.frame-sign-in-input {
+width: 196px;
+height: 81px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 0px 20px 0px 0px;
+box-sizing: border-box;
+gap: 6px;
+}
+.button {
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+border-radius: 10px;
+background-color: #fff;
+}
+.white {
+height: 100%;
+width: 100%;
+position: absolute;
+margin: 0 !important;
+top: -1px;
+right: 0.2px;
+bottom: 2.1px;
+left: 0.2px;
+z-index: 1;
+}
+.google-icon-1 {
+height: 15.4px;
+width: 15.4px;
+position: relative;
+overflow: hidden;
+flex-shrink: 0;
+object-fit: cover;
+z-index: 2;
+}
+.sign-in-with {
+flex: 1;
+position: relative;
+font-size: 12px;
+font-family: Montserrat;
+color: #858585;
+text-align: center;
+z-index: 2;
+}
+.white-button-google-login {
+cursor: pointer;
+border: none;
+padding: 9px 21px 7px 20px;
+background-color: transparent;
+flex: 1;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+box-sizing: border-box;
+position: relative;
+gap: 12px;
+min-width: 129px;
+}
+.button1 {
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+border-radius: 10px;
+background-color: #fff;
+}
+.white1 {
+height: 100%;
+width: 100%;
+position: absolute;
+margin: 0 !important;
+top: -1px;
+right: 0.2px;
+bottom: 1.1px;
+left: 0.2px;
+z-index: 1;
+}
+.apple-1-icon {
+height: 15.4px;
+width: 12.6px;
+position: relative;
+overflow: hidden;
+flex-shrink: 0;
+object-fit: cover;
+z-index: 2;
+}
+.sign-in-with1 {
+width: calc(100% - 66.6px);
+border: none;
+outline: none;
+font-family: Montserrat;
+font-size: 12px;
+background-color: transparent;
+height: 16.5px;
+flex: 1;
+position: relative;
+color: #858585;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+min-width: 72px;
+z-index: 2;
+}
+.white-button-google-login1 {
+flex: 0.9172;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 8px 28px 7px 26px;
+box-sizing: border-box;
+position: relative;
+gap: 11px;
+min-width: 129px;
+min-height: 33px;
+}
+.primary-button-sign-in {
+align-self: stretch;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 0px 1px 0px 0px;
+box-sizing: border-box;
+gap: 28px;
+min-height: 38px;
+}
+.card1 {
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+border-radius: 20px;
+background-color: #fff;
+}
+.card {
+width: 100%;
+height: 100%;
+position: absolute;
+margin: 0 !important;
+top: -0.1px;
+right: 0.2px;
+bottom: 5.1px;
+left: 0.2px;
+z-index: 1;
+}
+.email-address {
+position: relative;
+font-size: 16px;
+font-family: Lato;
+color: #000;
+text-align: left;
+z-index: 2;
+}
+.input-field1 {
+position: absolute;
+height: 100%;
+width: 100%;
+top: -1.03%;
+right: -0.03%;
+bottom: 1.03%;
+left: 0.03%;
+border-radius: 10px;
+background-color: #f5f5f5;
+}
+.input-field {
+height: 43.9px;
+width: 356.8px;
+position: relative;
+max-width: 100%;
+z-index: 2;
+}
+.johndoegmailcom {
+width: 141px;
+border: none;
+outline: none;
+font-family: Lato;
+font-size: 16px;
+background-color: transparent;
+height: 20px;
+position: relative;
+color: #000;
+text-align: left;
+display: inline-block;
+white-space: nowrap;
+z-index: 3;
+margin-left: -340px;
+}
+.forgot-password-label {
+align-self: stretch;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+max-width: 100%;
+}
+.email-address-input {
+align-self: stretch;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 12px;
+max-width: 100%;
+}
+.password {
+position: relative;
+font-size: 16px;
+font-family: Lato;
+color: #000;
+text-align: left;
+z-index: 2;
+}
+.input {
+height: 43.9px;
+width: 356.8px;
+position: relative;
+border-radius: 10px;
+background-color: #eaeaea;
+display: none;
+max-width: 100%;
+}
+.input1 {
+width: 70px;
+border: none;
+outline: none;
+font-family: Lato;
+font-size: 16px;
+background-color: transparent;
+height: 20px;
+position: relative;
+color: #000;
+text-align: left;
+display: inline-block;
+z-index: 3;
+}
+.sign-in-button {
+height: 20.8px;
+width: 1px;
+position: relative;
+border-right: 1px solid #999;
+box-sizing: border-box;
+z-index: 3;
+}
+.frame-with-password-input {
+align-self: stretch;
+border-radius: 10px;
+background-color: #eaeaea;
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+justify-content: flex-start;
+padding: 11px 16px 12px;
+box-sizing: border-box;
+gap: 12px;
+max-width: 100%;
+z-index: 2;
+}
+.frame-with-logos-and-inputs {
+align-self: stretch;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 12px;
+max-width: 100%;
+}
+.forgot-password {
+width: 136.1px;
+position: relative;
+font-size: 16px;
+font-family: Lato;
+color: #346bd4;
+text-align: left;
+display: inline-block;
+flex-shrink: 0;
+z-index: 2;
+}
+.register-button {
+align-self: stretch;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 0px 1px;
+}
+.button-primary1 {
+position: absolute;
+height: 100%;
+width: 100%;
+top: -0.11%;
+right: -0.03%;
+bottom: 0.11%;
+left: 0.03%;
+border-radius: 10px;
+background-color: #605bff;
+cursor: pointer;
+}
+.button-primary {
+height: 43.9px;
+width: 356.8px;
+position: relative;
+max-width: 100%;
+z-index: 2;
+}
+.sign-in2 {
+width: 111.9px;
+position: relative;
+font-size: 16px;
+display: inline-block;
+font-family: Montserrat;
+color: #fff;
+text-align: center;
+flex-shrink: 0;
+white-space: nowrap;
+z-index: 3;
+margin-left: -233px;
+}
+.forgotpasswordbutton {
+cursor: pointer;
+border: none;
+padding: 0;
+background-color: transparent;
+align-self: stretch;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+max-width: 100%;
+}
+.card-container {
+align-self: stretch;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+padding: 33px;
+box-sizing: border-box;
+position: relative;
+gap: 23px;
+max-width: 100%;
+}
+.dont-have-an {
+color: #858585;
+}
+.register-here {
+color: #346bd4;
+}
+.dont-have-an-container {
+flex: 1;
+position: relative;
+font-size: 16px;
+font-family: Lato;
+text-align: center;
+z-index: 1;
+}
+.signuplink {
+align-self: stretch;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 0px 68px;
+}
+.sign-in-button-frame {
+margin: 0;
+width: 423px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 20px 0px;
+box-sizing: border-box;
+gap: 22px;
+min-width: 423px;
+max-width: 100%;
+}
+.sign-in {
+width: 100%;
+position: relative;
+background-color: #f8faff;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: 94px;
+letter-spacing: normal;
+text-align: left;
+font-size: 72px;
+color: #fff;
+font-family: Montserrat;
+}
+
+@media screen and (max-width: 1200px) {
+.frame-sign-in {
+flex: 1;
+}
+
+.sign-in-button-frame {
+flex: 1;
+}
+
+.sign-in {
+flex-wrap: wrap;
+}
+
+}
+@media screen and (max-width: 1050px) {
+.base {
+font-size: 58px;
+}
+
+.frame-sign-in {
+padding-top: 300px;
+padding-bottom: 44px;
+box-sizing: border-box;
+min-width: 100%;
+}
+
+.sign-in1 {
+font-size: 29px;
+}
+
+}

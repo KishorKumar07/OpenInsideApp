@@ -1,0 +1,40 @@
+.sidebar_content{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.sidebar_link{
+    display:flex;
+    gap:20px  ;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sidebar_icon{
+    width:24px;
+    height: 26.43px;
+    
+}
+
+.sidebar_text{
+    font-size: 16px;
+    color:#9A9AA9;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+#upload_text{
+    color:blue;
+}
+
+.name{
+  position:relative;
+  bottom: 118px;
+  margin-left: 145px;
+  font-size: 24px;
+  font-weight: 600;
+}
